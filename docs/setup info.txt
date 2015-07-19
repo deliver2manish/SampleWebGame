@@ -1,0 +1,21 @@
+These steps need to be followed to build the project from source.
+
+1. Install Node.js -
+	https://nodejs.org/download/
+
+2. Install grunt-cli
+	npm install -g grunt-cli
+
+3. Install pandatool
+	npm install -g pandatool
+
+3. Navigate to root of project with cmd/terminal and run the command-
+	npm install
+
+4. Build the project in Debug mode by running the following in cmd/terminal at project root-
+	grunt debug
+
+5. Build the project in Release mode by running the following in cmd/terminal at project root-
+	grunt release
+
+6. Build files will be created in build folder( debug and release )
